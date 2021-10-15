@@ -1,2 +1,2 @@
-# eslint-config-sup39
-eslint config for sup39
+# @sup39/eslint-config-basic
+basic eslint config for sup39
