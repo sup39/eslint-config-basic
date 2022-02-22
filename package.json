@@ -1,12 +1,12 @@
 {
   "name": "@sup39/eslint-config-basic",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "index.js",
   "license": "MIT",
   "files": [
     "index.js"
   ],
   "description": "eslint config for sup39",
-  "repository": "https://github.com/sup39/eslint-config-sup39",
+  "repository": "https://github.com/sup39/eslint-config-basic",
   "author": "sup39"
 }

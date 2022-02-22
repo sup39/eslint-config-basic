@@ -78,7 +78,10 @@ module.exports = {
     'no-unsafe-finally': 'error',
     'no-unsafe-negation': 'error',
     'no-unsafe-optional-chaining': 'error',
-    'no-unused-vars': 'warn',
+    'no-unused-vars': ['warn', {
+      varsIgnorePattern: '^_',
+      argsIgnorePattern: '^_',
+    }],
     'no-use-before-define': 'warn',
     'no-useless-backreference': 'error',
     'require-atomic-updates': 'warn',
