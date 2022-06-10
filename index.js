@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2021 sup39[サポミク]
+ * Copyright (c) 2021-2022 sup39[サポミク]
  *
  * Permission is hereby granted, free of charge, to any person
  * obtaining a copy of this software and associated documentation
@@ -243,7 +243,7 @@ module.exports = {
      */
     // 'array-bracket-newline': ['error'],
     'array-bracket-spacing': ['error', 'never'],
-    'array-element-newline': ['error', 'consistent'],
+    'array-element-newline': ['off'],
     'arrow-parens': ['error', 'as-needed'],
     'arrow-spacing': ['off'],
     // 'block-spacing': ['error'],
@@ -291,7 +291,7 @@ module.exports = {
     // 'operator-linebreak': ['error'],
     'padded-blocks': ['error', 'never'],
     // 'padding-line-between-statements': ['error'],
-    'quotes': ['error', 'single'],
+    'quotes': ['error', 'single', {'avoidEscape': true, 'allowTemplateLiterals': true}],
     // 'rest-spread-spacing': ['error'],
     'semi': ['error', 'always'],
     'semi-spacing': ['error', {'before': false, 'after': true}],
